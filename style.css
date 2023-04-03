@@ -1,0 +1,98 @@
+body {
+    background-color: #CCE5FF;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: inherit;
+}
+
+.foto {
+    width: 100%;
+    border: solid;
+    margin: 0%;
+}
+
+.caja-imagen {
+    width: 100%;
+    border: solid;
+}
+
+.texto {
+    width: 100%;
+    border: solid;
+    margin: auto;
+}
+
+.contenido {
+    display: grid;
+    grid-template-columns: 50%, 50%;
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+#img-uni {
+    margin: 10%;
+    height: 45%;
+    width: 45%;
+}
+
+#image-profile {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#profile {
+    text-align: center;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#image-habilidades {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#habilidades {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#image-experiencia {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+#experiencia {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+#image-actual {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+#actual {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+#image-hobbys {
+    grid-column: 1;
+    grid-row: 5;
+}
+
+#hobbys {
+    grid-column: 2;
+    grid-row: 5;
+}
+
+.social-media {
+    height: 100;
+}
+
+.iconss {
+    width: 40px;
+    height: 40px;
+}
